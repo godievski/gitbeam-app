@@ -1,0 +1,11 @@
+diff --git a/node_modules/react-native-gesture-handler/RNGestureHandler.podspec b/node_modules/react-native-gesture-handler/RNGestureHandler.podspec
+index d53738c..b659f0c 100644
+--- a/node_modules/react-native-gesture-handler/RNGestureHandler.podspec
++++ b/node_modules/react-native-gesture-handler/RNGestureHandler.podspec
+@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
+   s.source_files = "ios/**/*.{h,m}"
+ 
+   s.dependency "React"
+-
++  s.dependency "React-Core"
+ end

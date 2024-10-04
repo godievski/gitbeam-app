@@ -1,0 +1,22 @@
+diff --git a/node_modules/react-native-config/ios/ReactNativeConfig/GeneratedDotEnv.m b/node_modules/react-native-config/ios/ReactNativeConfig/GeneratedDotEnv.m
+new file mode 100644
+index 0000000..47dffd2
+--- /dev/null
++++ b/node_modules/react-native-config/ios/ReactNativeConfig/GeneratedDotEnv.m
+@@ -0,0 +1 @@
++  #define DOT_ENV @{ @"GITLAB_CLIENT_ID":@"c3089a86aeae581634aaa78fd64dffc0e908c7f9ef48d7c398fc9c3202e0119b",@"GITLAB_CLIENT_SECRET":@"150a6b3b2707749cb921f25ebed373140c660ecfc039ac3ec62457526bee7e0a",@"GITLAB_REDIRECT_URL":@"com.gitbeam://oauth" };
+diff --git a/node_modules/react-native-config/react-native-config.podspec b/node_modules/react-native-config/react-native-config.podspec
+index 2864c53..ad76f3c 100644
+--- a/node_modules/react-native-config/react-native-config.podspec
++++ b/node_modules/react-native-config/react-native-config.podspec
+@@ -17,6 +17,10 @@ Pod::Spec.new do |s|
+   s.tvos.deployment_target = '9.0'
+ 
+   s.source       = { git: 'https://github.com/luggit/react-native-config.git', tag: "v#{s.version.to_s}" }
++
++  s.dependency 'React'
++  s.dependency 'React-Core'
++
+   s.script_phase = {
+     name: 'Config codegen',
+     script: %(

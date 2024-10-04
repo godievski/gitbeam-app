@@ -1,0 +1,19 @@
+
+.icon-branch:before { content: '\e800'; } /* '' */
+.icon-commit:before { content: '\e801'; } /* '' */
+.icon-doc_code:before { content: '\e802'; } /* '' */
+.icon-fork:before { content: '\e803'; } /* '' */
+.icon-issues:before { content: '\e804'; } /* '' */
+.icon-merge-request:before { content: '\e805'; } /* '' */
+.icon-star-o:before { content: '\e806'; } /* '' */
+.icon-tag:before { content: '\e807'; } /* '' */
+.icon-labels:before { content: '\e808'; } /* '' */
+.icon-clock:before { content: '\e809'; } /* '' */
+.icon-users:before { content: '\e80a'; } /* '' */
+.icon-pipeline:before { content: '\e80b'; } /* '' */
+.icon-rocket:before { content: '\e80c'; } /* '' */
+.icon-star:before { content: '\e80d'; } /* '' */
+.icon-bulb-on:before { content: '\e80e'; } /* '' */
+.icon-bulb:before { content: '\e80f'; } /* '' */
+.icon-cog:before { content: '\e810'; } /* '' */
+.icon-user-light:before { content: '\e811'; } /* '' */
